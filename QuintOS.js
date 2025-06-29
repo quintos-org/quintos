@@ -13,9 +13,9 @@ if (typeof QuintOS == 'undefined') {
 
 {
 	let src = document.currentScript.src;
-	QuintOS.web ??= src.includes('quinton-ashley.github.io');
+	QuintOS.web ??= src.includes('quintos-org.github.io');
 
-	QuintOS.root = QuintOS.web ? 'https://quinton-ashley.github.io' : './node_modules';
+	QuintOS.root = QuintOS.web ? 'https://quintos-org.github.io' : './node_modules';
 
 	let url = location.href;
 	if (url.includes('?')) {
@@ -927,11 +927,11 @@ p5.prototype.registerMethod('init', async function quintosInit() {
 			QuintOS.game = levels[QuintOS.level][0];
 		} else {
 			if (
-				location.href == 'quinton-ashley.github.io/quintos' ||
-				location.href == 'https://quinton-ashley.github.io/quintos' ||
-				location.href == 'https://quinton-ashley.github.io/quintos/'
+				location.href == 'quintos-org.github.io/quintos' ||
+				location.href == 'https://quintos-org.github.io/quintos' ||
+				location.href == 'https://quintos-org.github.io/quintos/'
 			) {
-				location.href = 'https://quinton-ashley.github.io/quintos/web/home.html';
+				location.href = 'https://quintos-org.github.io/quintos/web/home.html';
 			}
 			return;
 		}
@@ -1255,7 +1255,7 @@ tile {
 	}
 
 	// if QuintOS is running in an iframe on
-	// https://quinton-ashley.github.io/quintos
+	// https://quintos-org.github.io/quintos
 	if (QuintOS.iframe) {
 		outputVolume(0);
 		setTimeout(() => {

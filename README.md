@@ -2,7 +2,7 @@
 
 Level up your coding skills by creating retro games and applications!
 
-On the [QuintOS webpage](https://quinton-ashley.github.io/quintos) you can see programs made by my students.
+On the [QuintOS webpage](https://quintos-org.github.io/quintos) you can see programs made by my students.
 
 QuintOS uses [q5.js] and [p5play], it's retro programming with modern JavaScript!
 
@@ -123,8 +123,8 @@ I'd like to thank all the creators whose work is included in this project and al
 <!----------------------------------------------------------------------------->
 
 [template project]: https://github.com/quinton-ashley/quintos-template
-[introtojava]: https://github.com/quinton-ashley/IntroToJava/blob/main/README.md
-[introtojs]: https://github.com/quinton-ashley/IntroToJS/blob/main/README.md
+[introtojava]: https://github.com/quintos-org/IntroToJava/blob/main/README.md
+[introtojs]: https://github.com/quintos-org/IntroToJs/blob/main/README.md
 [q5.js]: https://q5js.org
 [p5play]: https://p5play.org
 

@@ -122,7 +122,7 @@ I'd like to thank all the creators whose work is included in this project and al
 
 <!----------------------------------------------------------------------------->
 
-[template project]: https://github.com/quinton-ashley/quintos-template
+[template project]: https://github.com/quintos-org/quintos-template
 [introtojava]: https://github.com/quintos-org/IntroToJava/blob/main/README.md
 [introtojs]: https://github.com/quintos-org/IntroToJs/blob/main/README.md
 [q5.js]: https://q5js.org
